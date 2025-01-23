@@ -1,2 +1,1 @@
-# paintBrushJava
-Trabalho de java com interface gráfica
+# Implementação de um Paint Brusch em Java no trabalho de Linguagens de Programação
