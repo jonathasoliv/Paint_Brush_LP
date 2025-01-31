@@ -483,6 +483,7 @@ public class FrMain extends javax.swing.JFrame {
             cilindro.desenhar(jFrameDesenho.getGraphics());
         }
         if (opcaoSelecionada == 9) {
+            piramide.showArea = cbTexto.getState();
             piramide.x1 = evt.getX();
             piramide.y1 = evt.getY();
             piramide.largura = evt.getX() - piramide.x;

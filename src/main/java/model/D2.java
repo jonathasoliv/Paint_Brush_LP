@@ -20,10 +20,12 @@ abstract public class D2 extends Ponto{
     @Override
     public void desenhar(Graphics g){
         if(showArea){
-        g.setColor(Color.BLACK);
-        g.drawString("Area: "+ Float.toString(area())+ " Perímetro: " + Float.toString(perimetro()), x, y);
+            g.setColor(Color.BLACK);
+            g.drawString("Area: "+ formataFloat(area())+ " Perímetro: " + formataFloat(perimetro()), x, y);
         }
     }
     
-    
+    public String formataFloat(Float f){
+        return String.format("%.2f", Math.abs(f));    
+    }
 }
