@@ -4,6 +4,7 @@
  */
 package model;
 
+import java.awt.Color;
 import java.awt.Graphics;
 
 /**
@@ -12,7 +13,7 @@ import java.awt.Graphics;
  */
 public class Reta extends D2{
     public int x1, y1;
-    
+   
     @Override
     public float area() {
         return 0;
@@ -26,6 +27,7 @@ public class Reta extends D2{
     @Override
     public void desenhar(Graphics g){
        super.desenhar(g);
+       g.setColor(corPrimaria);
        g.drawLine(x, y, x1, y1);
     }
     
