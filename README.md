@@ -1,1 +1,1 @@
-# Implementação de um Paint Brusch em Java no trabalho de Linguagens de Programação
+# Implementação de um Paint Brush em Java no trabalho de Linguagens de Programação
