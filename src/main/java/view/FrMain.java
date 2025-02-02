@@ -428,7 +428,6 @@ public class FrMain extends javax.swing.JFrame {
     }//GEN-LAST:event_jFrameDesenhoMouseClicked
 
     private void jFrameDesenhoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jFrameDesenhoMousePressed
-
         switch (ferramentaSelecionada) {
             case RETA:
                 if (SwingUtilities.isLeftMouseButton(evt)) {
@@ -501,6 +500,12 @@ public class FrMain extends javax.swing.JFrame {
 
     private void jFrameDesenhoMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jFrameDesenhoMouseDragged
         switch (ferramentaSelecionada) {
+            case PONTO:
+                ponto.x = evt.getX();
+                ponto.y = evt.getY();
+                ponto.corPrimaria = jCorPrincipal.getBackground();
+                ponto.desenhar(jFrameDesenho.getGraphics());
+                break;
             case SPRAY:
                 if (SwingUtilities.isLeftMouseButton(evt)) {
                     ponto.corPrimaria = jCorPrincipal.getBackground();
