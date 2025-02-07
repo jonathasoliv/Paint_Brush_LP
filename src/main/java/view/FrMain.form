@@ -170,7 +170,7 @@
     </Container>
     <Component class="javax.swing.JButton" name="btnPonto">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1 - Ponto"/>
+        <Property name="text" type="java.lang.String" value="Ponto"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnPontoMouseClicked"/>
@@ -179,7 +179,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnReta">
       <Properties>
-        <Property name="text" type="java.lang.String" value="2 - Reta"/>
+        <Property name="text" type="java.lang.String" value="Reta"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnRetaMouseClicked"/>
@@ -257,7 +257,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnCirculo">
       <Properties>
-        <Property name="text" type="java.lang.String" value="3 -C&#xed;rculo"/>
+        <Property name="text" type="java.lang.String" value="C&#xed;rculo"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnCirculoMouseClicked"/>
@@ -266,7 +266,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRetangulo">
       <Properties>
-        <Property name="text" type="java.lang.String" value="4 - Retangulo"/>
+        <Property name="text" type="java.lang.String" value="Retangulo"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnRetanguloMouseClicked"/>
@@ -275,7 +275,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnBorracha">
       <Properties>
-        <Property name="text" type="java.lang.String" value="5 - Borracha"/>
+        <Property name="text" type="java.lang.String" value="Borracha"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnBorrachaMouseClicked"/>
@@ -284,7 +284,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnSpray">
       <Properties>
-        <Property name="text" type="java.lang.String" value="6 -Spray"/>
+        <Property name="text" type="java.lang.String" value="Spray"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnSprayMouseClicked"/>
@@ -293,7 +293,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnCilindro">
       <Properties>
-        <Property name="text" type="java.lang.String" value="7 - Cilindro"/>
+        <Property name="text" type="java.lang.String" value="Cilindro"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnCilindroMouseClicked"/>
@@ -302,10 +302,11 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnTriangulo">
       <Properties>
-        <Property name="text" type="java.lang.String" value="9 - Pir&#xe2;mide"/>
+        <Property name="text" type="java.lang.String" value="Pir&#xe2;mide"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTrianguloMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTrianguloActionPerformed"/>
       </Events>
     </Component>
     <Component class="java.awt.Checkbox" name="cbTexto">

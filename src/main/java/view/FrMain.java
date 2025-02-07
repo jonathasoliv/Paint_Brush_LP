@@ -152,7 +152,7 @@ public class FrMain extends javax.swing.JFrame {
             .addGap(0, 320, Short.MAX_VALUE)
         );
 
-        btnPonto.setText("1 - Ponto");
+        btnPonto.setText("Ponto");
         btnPonto.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnPontoMouseClicked(evt);
@@ -164,7 +164,7 @@ public class FrMain extends javax.swing.JFrame {
             }
         });
 
-        btnReta.setText("2 - Reta");
+        btnReta.setText("Reta");
         btnReta.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnRetaMouseClicked(evt);
@@ -222,7 +222,7 @@ public class FrMain extends javax.swing.JFrame {
             }
         });
 
-        btnCirculo.setText("3 -Círculo");
+        btnCirculo.setText("Círculo");
         btnCirculo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCirculoMouseClicked(evt);
@@ -234,7 +234,7 @@ public class FrMain extends javax.swing.JFrame {
             }
         });
 
-        btnRetangulo.setText("4 - Retangulo");
+        btnRetangulo.setText("Retangulo");
         btnRetangulo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnRetanguloMouseClicked(evt);
@@ -246,7 +246,7 @@ public class FrMain extends javax.swing.JFrame {
             }
         });
 
-        btnBorracha.setText("5 - Borracha");
+        btnBorracha.setText("Borracha");
         btnBorracha.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnBorrachaMouseClicked(evt);
@@ -258,7 +258,7 @@ public class FrMain extends javax.swing.JFrame {
             }
         });
 
-        btnSpray.setText("6 -Spray");
+        btnSpray.setText("Spray");
         btnSpray.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnSprayMouseClicked(evt);
@@ -270,7 +270,7 @@ public class FrMain extends javax.swing.JFrame {
             }
         });
 
-        btnCilindro.setText("7 - Cilindro");
+        btnCilindro.setText("Cilindro");
         btnCilindro.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCilindroMouseClicked(evt);
@@ -282,10 +282,15 @@ public class FrMain extends javax.swing.JFrame {
             }
         });
 
-        btnTriangulo.setText("9 - Pirâmide");
+        btnTriangulo.setText("Pirâmide");
         btnTriangulo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnTrianguloMouseClicked(evt);
+            }
+        });
+        btnTriangulo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTrianguloActionPerformed(evt);
             }
         });
 
@@ -635,6 +640,10 @@ public class FrMain extends javax.swing.JFrame {
     private void jColorChooser1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jColorChooser1MouseClicked
         // TODO add your handling code here:
     }//GEN-LAST:event_jColorChooser1MouseClicked
+
+    private void btnTrianguloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTrianguloActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnTrianguloActionPerformed
 
     /**
      * @param args the command line arguments
