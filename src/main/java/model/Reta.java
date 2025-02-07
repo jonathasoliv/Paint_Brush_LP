@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 public class Reta extends D2{
     public int x1, y1;

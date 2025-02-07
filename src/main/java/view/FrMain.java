@@ -24,7 +24,7 @@ import model.Piramide;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 public class FrMain extends javax.swing.JFrame {
 

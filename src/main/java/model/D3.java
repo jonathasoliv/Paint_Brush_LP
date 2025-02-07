@@ -13,7 +13,7 @@ import model.Ponto;
 
 /**
  *
- * @author Anacleto
+ * @author Cléver & Cauã & Jonathas
  */
 abstract public class D3 extends D2{
     public int x1;

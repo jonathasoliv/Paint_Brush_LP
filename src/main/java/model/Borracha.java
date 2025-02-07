@@ -8,7 +8,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 
 public class Borracha extends D2{ // A borracha substitua os pixels da área desejada por pixels que representam a cor de fundo.

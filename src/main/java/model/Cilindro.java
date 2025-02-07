@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 public class Cilindro extends D3{
    @Override

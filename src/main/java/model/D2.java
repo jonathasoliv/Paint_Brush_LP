@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 abstract public class D2 extends Ponto{
     public Color corInterna;

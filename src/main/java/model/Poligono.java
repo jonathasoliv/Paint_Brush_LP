@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 public class Poligono extends Ponto{
     public ArrayList coordX;

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 public class Piramide extends D3 {
 

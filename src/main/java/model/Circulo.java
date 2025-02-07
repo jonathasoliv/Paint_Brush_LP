@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 public class Circulo extends D2{
     public Color corInterna;

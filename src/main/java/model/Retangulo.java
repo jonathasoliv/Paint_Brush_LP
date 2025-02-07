@@ -8,7 +8,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author JonathasOliveira
+ * @author Cléver & Cauã & Jonathas
  */
 public class Retangulo extends D2{
     public int base,largura;
